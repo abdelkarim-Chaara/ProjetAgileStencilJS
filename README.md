@@ -9,6 +9,10 @@ Il n'y a donc pas besoin de rajouter bootstrap !!
 Les scripts de base de Bulma sont déjà inclus dans global/app.scss (ils seront donc ajouté automatiquement à tous vos composant à la compilation).    
 Bulma étant lui même modularisé, il faudra, dans le scss de vos composants, importer le fichier sass de l'élément Bulma que vous voulez utiliser (disponible dans node_modules/bulma/sass).  
 
+## Deploy 
+
+http://app-54421549-51c0-4d54-b139-bfd8b0d440ba.cleverapps.io/
+
 ## Getting Started
 
 To start a new project using Stencil, clone this repo to a new directory:
