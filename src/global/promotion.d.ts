@@ -15,5 +15,5 @@ export interface Promotion {
     lieuRentree: string;
     nbMaxEtudiant: 0;
     processusStage: string;
-    siglePromotion: string
+    siglePromotion: string;
   }

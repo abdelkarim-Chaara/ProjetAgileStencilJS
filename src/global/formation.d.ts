@@ -5,5 +5,5 @@ export interface Formation {
     doubleDiplome: string;
     finAccreditation: Date;
     n0Annee: 0;
-    nomFormation: string
+    nomFormation: string;
   }

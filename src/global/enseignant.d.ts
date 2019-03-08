@@ -11,5 +11,5 @@ export interface  Enseignant {
     sexe: string;
     telephone: string;
     type: string;
-    ville: string
+    ville: string;
   }

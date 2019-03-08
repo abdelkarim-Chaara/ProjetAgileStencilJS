@@ -22,5 +22,5 @@ export interface Candidat {
     sexe: string;
     telephone: string;
     universiteOrigine: string;
-    ville: string
+    ville: string;
   }
