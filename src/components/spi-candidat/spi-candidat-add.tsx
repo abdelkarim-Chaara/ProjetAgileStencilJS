@@ -1,5 +1,4 @@
 import { Component, Method, State } from '@stencil/core';
-import { Candidat } from '../../global/candidat';
 
 
 @Component({
