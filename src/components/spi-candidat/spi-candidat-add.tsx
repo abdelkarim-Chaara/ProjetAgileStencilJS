@@ -22,16 +22,16 @@ export class SpiCandidatAdd {
     @State() sexe: String;
     @State() ville: String;
     @State() email: String;
-    @State()adresse: String;;
-    @State() nationalite: String;;
-    @State()universiteOrigine: String;;
-    @State()paysOrigine: String;;
-    @State()lieuNaissance: String;;
-    @State()dateNaissance: String;;
-    @State() mobile: String;;
-    @State() codePostal: String;;
-    @State() codeFormation: String;;
-    @State() anneeUniversitaire: String;;
+    @State() adresse: String;
+    @State() nationalite: String;
+    @State() universiteOrigine: String;
+    @State() paysOrigine: String;
+    @State() lieuNaissance: String;
+    @State() dateNaissance: String;
+    @State() mobile: String;
+    @State() codePostal: String;
+    @State() codeFormation: String;
+    @State() anneeUniversitaire: String;
 
     @Method()
 
@@ -64,45 +64,45 @@ export class SpiCandidatAdd {
     handleSubmit(event) {
         event.preventDefault();
 
-        this.codeFormation = this.idPromotion.codeFormation,
-        this.anneeUniversitaire = this.idPromotion.anneeUniversitaire;
-        this.nom = this.candidat.nom;
-        this.prenom = this.candidat.prenom;
-        this.email = this.candidat.email;
-        this.adresse = this.candidat.adresse;
-        this.nationalite = this.candidat.nationalite;
-        this.sexe = this.candidat.sexe;
-        this.universiteOrigine = this.candidat.universiteOrigine;
-        this.paysOrigine = this.candidat.paysOrigine;
-        this.lieuNaissance = this.candidat.lieuNaissance;
-        this.dateNaissance = this.candidat.dateNaissance;
-        this.mobile = this.candidat.mobile;
-        this.ville = this.candidat.ville;
-        this.codePostal = this.candidat.codePostal;
+        this.codeFormation = this.idPromotion.codeFormation
+        this.anneeUniversitaire = this.idPromotion.anneeUniversitaire
+        this.nom = this.candidat.nom
+        this.prenom = this.candidat.prenom
+        this.email = this.candidat.email
+        this.adresse = this.candidat.adresse
+        this.nationalite = this.candidat.nationalite
+        this.sexe = this.candidat.sexe
+        this.universiteOrigine = this.candidat.universiteOrigine
+        this.paysOrigine = this.candidat.paysOrigine
+        this.lieuNaissance = this.candidat.lieuNaissance
+        this.dateNaissance = this.candidat.dateNaissance
+        this.mobile = this.candidat.mobile
+        this.ville = this.candidat.ville
+        this.codePostal = this.candidat.codePostal
 
         const data = {
 
-          codeFormation : this.codeFormation,
-          anneeUniversitaire:this.anneeUniversitaire,
-          nom :  this.nom,
-          prenom:this.prenom,
-          email:this.email,
-          addresse:this.adresse,
-          nationalite:this.nationalite,
-          sexe:this.sexe,
-          universiteOrigine:this.universiteOrigine,
-          paysOrigine:this.paysOrigine,
-          lieuNaissance:this.lieuNaissance,
-          dateNaissance:this.dateNaissance,
-          mobile:this.mobile,
-          ville:this.ville,
-          codePostal:this.codePostal
+            codeFormation: this.codeFormation,
+            anneeUniversitaire: this.anneeUniversitaire,
+            nom: this.nom,
+            prenom: this.prenom,
+            email: this.email,
+            addresse: this.adresse,
+            nationalite: this.nationalite,
+            sexe: this.sexe,
+            universiteOrigine: this.universiteOrigine,
+            paysOrigine: this.paysOrigine,
+            lieuNaissance: this.lieuNaissance,
+            dateNaissance: this.dateNaissance,
+            mobile: this.mobile,
+            ville: this.ville,
+            codePostal: this.codePostal
 
         }
-          
 
-      
-       
+
+
+
 
 
 
